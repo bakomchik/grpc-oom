@@ -1,0 +1,11 @@
+option java_package = "com.test.example";
+
+service OOM {
+   rpc submit(Request) returns (Response) {}
+}
+message Request{
+ required bytes body = 1;
+}
+message Response{
+
+}
